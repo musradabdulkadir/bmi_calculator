@@ -12,7 +12,9 @@ calculate.addEventListener("click", function () {
   if (height == "") {
     hError.style.color = "red";
     hError.innerText = "Please enter your height";
-  } else if (weight == "") {
+  }
+  
+  if (weight == "") {
     wError.style.color = "red";
     wError.innerText = "Please enter your Weight";
   } else {
