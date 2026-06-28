@@ -21,14 +21,17 @@
     <main>
         <section id="container">
             <label for="height">Height :</label>
-            <input type="number" name="height" id="heightInp" placeholder="Enter Your Height: ">
+            <input type="number" name="height" id="heightInp" placeholder="Enter Your Height in cm: ">
             <p id="heightError"></p>
 
             <label for="weight">Weight :</label>
             <input type="number" name="weight" id="weightInp" placeholder="Enter your Weight: ">
-            <p id="heightError"></p>
+            <p id="weightError"></p>
+            <div class="btnConatiner">
+                <button id="calculateButton">CALCULATE</button>
 
-            <button id="calculateButton">CALCULATE</button>
+            </div>
+
         </section>
         <section id="result">
             <h3 id="bmiResult"></h3>
