@@ -35,22 +35,43 @@ main{
     background-color: rgb(224, 236, 248);
 }
 label{
-    margin-bottom: 3px;
-    margin-top: 8px;
+    margin-bottom: 2px;
+    margin-top: 10px;
+    font-size: 20px;
+    font-weight: 500;
 }
 
 input{
     border: 1px solid black;
     border-radius: 10px;
-    height: 25px;
+    height: 30px;
     padding-left: 5px;
+    margin: 0px;
+}
+
+.btnContainer{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
 }
 
 button{
     margin-top: 20px;
     border: 1px solid black;
     border-radius: 10px;
-    height: 35px;
-    width: 100px;
+    height: 40px;
+    width: 150px;
     padding-left: 5px;
+    background-color: #800000;
+    color: white;
+    font-weight: 600;
+    cursor: pointer;
+}
+button:hover{
+    background-color: #3d0505;
+}
+
+p{
+    font-size: 12px;
+    margin-left: 5px;
 }
